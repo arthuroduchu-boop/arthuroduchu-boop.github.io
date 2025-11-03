@@ -1,0 +1,316 @@
+body {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Candara Light";
+	line-height: 1.5;
+	background-color: #fFF;
+}
+
+.logo {
+	width: 200px;
+	height: 140px;
+}
+
+.banner-text button {
+	font-size: larger;
+	margin-top: 30px;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.banner-img, .banner-text {
+	width: 50%;
+}
+
+.banner-img img {
+	width: 100%;
+}
+
+.banner-text {
+	text-align: center;
+	font-family: 'Trebuchet MS';
+	background-color: rgb(16, 1, 41);
+	height: 406px;
+	color: white;
+}
+
+.banner-text p {
+	padding: 0 80px;
+}
+
+.banner-text p, .sub-title p {
+	color: rgb(184, 181, 181);
+}
+
+.banner-text h1 {
+	font-size: 50px;
+}
+
+button {
+	border-radius: 50px;
+	padding: 15px 40px;
+	background: grey;
+	color: white;
+	font-weight: bolder;
+	border: none;
+}
+
+nav, footer {
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	background: rgb(16, 1, 41);
+	font-weight: bolder;
+	color: #ccc;
+}
+
+nav {
+	background: none;
+}
+
+a {
+	margin: 0 5px;
+}
+
+footer h2 {
+	font-family: 'Trebuchet MS';
+}
+.title {
+	text-align: center;
+	margin: 50px 0 0 0 ;
+	color: rgb(209, 6, 6);
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS';
+	font-size: xx-small;
+}
+
+.sub-title {
+	width: 60%;
+	margin: 0 auto 80px;
+	text-align: center;
+	font-family: 'Trebuchet MS';
+	color: black;
+	
+}
+
+.form-box {
+	width: 40%;
+	margin: -50px auto 40px;
+}
+
+input {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.form-box button {
+	border-radius: 0;
+}
+.hobbies {
+	width: 80%;
+	margin: 0 auto 50px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+} 
+
+.hobby {
+	width: 30%;
+	background-color: #efefef;
+}
+
+.hobby-image {
+	width: 100%;
+}
+
+.hobby-title, .hobby-text {
+	text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+	.banner-img, .banner-text {
+		width: 100%;
+	}
+
+	.banner-text {
+		margin-top: -10px;
+		height: auto;
+		padding: 10px 0 60px;
+	}
+
+	.banner-text p {
+		padding: 0 40px;
+	}
+	.sub-title {
+		width: 80%;
+	}
+
+	.form-box {
+		width: 80%;
+	}
+
+	.banner {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+.offers {
+	width: 80%;
+	margin: 0 auto 50px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+} 
+.sports {
+	width: 30%;
+	background-color: #efefef;
+}
+
+.sports-image {
+	width: 100%;
+}
+
+.sports-title, .hobby-text {
+	text-align: center;
+}
+@media screen and (max-width: 900px) {
+	.banner-img, .banner-text {
+		width: 100%;
+	}
+
+	.banner-text {
+		margin-top: -10px;
+		height: auto;
+		padding: 10px 0 60px;
+	}
+
+	.banner-text p {
+		padding: 0 40px;
+	}
+	.sub-title {
+		width: 80%;
+	}
+
+	.form-box {
+		width: 80%;
+	}
+
+	.hobby {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+.top-bar {
+    background-color: #1c0135; 
+    color: white; 
+    font-size: 0.9em;
+    padding: 8px 0;
+    width: 100%;
+	
+}
+
+.top-bar-content {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
+
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+.top-bar-item a {
+    color: white; 
+    text-decoration: none; 
+}
+
+
+.top-bar-item a:hover {
+    color: #ccc; 
+}
+.image-container {
+	position: relative;
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	margin-bottom: 15px;
+	
+}
+.image-container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	z-index: 1;
+}
+.text-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fFF;
+	text-align: left;
+	z-index: 2;
+	width: 80%;
+	.text-overlay h1, .text-overlay h2 {
+		margin: 0;
+		padding: 5px 0;
+
+	}
+
+}
+.image-container h1 {
+	color: red;
+}
+.banner-text 1 {
+	
+}
+.image-container {
+	margin-bottom: 100px;
+}
+.contacts {
+	background-color: #1c0135;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 60px 20px;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 15px;
+	color: #ccc;
+	
+}
+.contact-item details {
+	display: block;
+	font-size: 16px;
+	font-weight: 500;
+	color: red;
+	text-decoration: none;
+
+}
+. .contact-item {
+	margin: 20px;
+}
+.navigation img {
+	width: 70px;
+	height: 70px;
+}
+.navigation a {
+	text-decoration: none;
+}
+.navigation {
+	text-align: left;
+
+}
+.footer-logo img {
+	height: 80px;
+	width: 80px;
+}
